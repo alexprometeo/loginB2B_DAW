@@ -16,13 +16,14 @@
 
 /* Estilo para el video de fondo con posición fija */
 #videoBG {
-    position: fixed;
+    position: absolute;
+    align-items: center;
     right: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    height: 100%;
     z-index: -2;
-    filter: blur(1.5px);
+    object-fit: cover;
 }
 
 #mainForm {    
@@ -39,9 +40,9 @@
     align-items: center;    
     align-content: center;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(20px);
-    background: rgba(13, 27, 42, 0.86);
+    background: rgba(13, 27, 42, 0.60);
 }
 
 #mainForm > input {
