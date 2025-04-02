@@ -27,7 +27,7 @@
 }
 
 #mainForm {    
-    max-width: 45vw;    
+    max-width: 20vw;    
     width: 100vw;
     height: 35vh;
     margin: auto auto;
@@ -42,7 +42,6 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(20px);
-    background: rgba(13, 27, 42, 0.60);
 }
 
 #mainForm > input {
@@ -52,6 +51,7 @@
     outline: none;
     border: 0.25px solid var(--grey);
     margin: 2%;
+    margin-bottom: 5%;
     background-color: transparent;
     color: var(--grey);
     font-size: 1.4rem;
